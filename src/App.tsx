@@ -22,7 +22,9 @@ export default function App() {
   return (
     <section className="bg-gradient-to-b from-gray-900 to-black  w-full md:flex flex-between gap-10 flex-col items-center p-8">
       <div className="flex flex-col mx-10 my-10 w-[90%] max-w-6xl lg:flex-col">
-        <Header />
+        <div className="fixed top-0">
+          <Header />
+        </div>
         <div className="flex justify-between mt-10 flex-col lg:flex-row gap-8">
           {/* Form Section */}
           <div className="flex flex-col gap-6 w-full md:w-[50%] p-6 bg-gray-800 bg-opacity-70 rounded-lg shadow-lg h-[580px]">
